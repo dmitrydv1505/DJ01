@@ -9,3 +9,9 @@ def index(request):
 def new(request):
     return HttpResponse("<h1>Это вторая страница моего проекта на Django</h1>")
 
+def data(request):
+    return HttpResponse("<h1>Это страница Data моего проекта на Django</h1>")
+
+def test(request):
+    return HttpResponse("<h1>Это страница Test моего проекта на Django</h1>")
+
